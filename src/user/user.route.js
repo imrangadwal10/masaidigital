@@ -48,12 +48,12 @@ app.post("/login", async (req, res) => {
         service: "gmail",
         auth: {
           user: emailuser,
-          pass: emailpassword,
+          pass: "cnjhcsyixtebozrp",
         },
       });
 
       const mailOptions = {
-        from: "pharmeasy@gmail.com",
+        from: "masaidigital@gmiail.com",
         to: email,
         subject: `OTP generated successfully`,
         text: `Dear ${user.firstName} the otp to login to your account id ${otp}`,
